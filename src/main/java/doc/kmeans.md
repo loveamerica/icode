@@ -7,19 +7,20 @@
 * step1 blabla...
 * step2 blabla...
 * step3 blabla...
-* step4 流程图
+* step4 流程图 eg
 
-```mermaid
-graph LR
-    start[开始] --> input[输入A,B,C]
-    input --> conditionA{A是否大于B}
-    conditionA -- YES --> conditionC{A是否大于C}
-    conditionA -- NO --> conditionB{B是否大于C}
-    conditionC -- YES --> printA[输出A]
-    conditionC -- NO --> printC[输出C]
-    conditionB -- YES --> printB[输出B]
-    conditionB -- NO --> printC[输出C]
-    printA --> stop[结束]
-    printC --> stop
-    printB --> stop
+```flow 
+st=>start: 开始 
+e=>end: 登录 
+io1=>inputoutput: 输入用户名密码 
+sub1=>subroutine: 数据库查询子类 
+cond=>condition: 是否有此用户 
+cond2=>condition: 密码是否正确 
+op=>operation: 读入用户信息
+
+st->io1->sub1->cond 
+cond(yes,right)->cond2 
+cond(no)->io1(right) 
+cond2(yes,right)->op->e 
+cond2(no)->io1 
 ```

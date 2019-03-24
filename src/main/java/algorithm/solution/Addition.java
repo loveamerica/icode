@@ -5,6 +5,7 @@ import common.bean.ListNode;
 /**
  * 两个非空的链表表示逆序的整数相加
  * (2 -> 4 -> 3) + (5 -> 6 -> 4) 相当于是 342 + 465
+ * @author yinyuanyuan
  */
 
 public class Addition {

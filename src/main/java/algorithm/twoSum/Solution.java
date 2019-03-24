@@ -1,4 +1,4 @@
-package twoSum;
+package algorithm.twoSum;
 
 public class Solution {
 

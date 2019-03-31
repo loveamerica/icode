@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+package twoSum;
+=======
 package algorithm.twoSum;
+>>>>>>> 39ec558ee67e1c0019dcadb02616c68da63ed7ac
 
 public class Solution {
 

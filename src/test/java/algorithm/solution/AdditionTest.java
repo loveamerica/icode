@@ -4,7 +4,6 @@ import common.bean.ListNode;
 import org.junit.Before;
 import org.junit.Test;
 
-import javax.naming.directory.InvalidSearchControlsException;
 
 import static org.junit.Assert.assertEquals;
 

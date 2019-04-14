@@ -48,9 +48,14 @@ algorithm programming
        }
    }   
 ``` 
- 
-## 4 项目成员
+
+## 4 我们的目标
+* a  算法功底ok
+* b  编程技巧ok
+* c  bug free & code clean
+
+## 5 项目成员
 * **shiyuquan liunan liusha yinyunyun** 
 
-## 5 后续问题
+## 6 后续问题
 * 如有补充，请直接提交
